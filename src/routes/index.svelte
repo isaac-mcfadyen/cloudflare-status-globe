@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 
 	import * as THREE from 'three';
-	import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+	import { OrbitControls } from '$lib/OrbitControls';
 	import { fetchLocations } from '$lib/fetchLocations';
 
 	let locations = [];

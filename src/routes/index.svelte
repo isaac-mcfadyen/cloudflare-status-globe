@@ -90,7 +90,7 @@
 			);
 
 			// Create a new SphereGeometry.
-			const sphereGeometry = new THREE.SphereGeometry(0.8, 32, 32);
+			const sphereGeometry = new THREE.SphereGeometry(0.5, 32, 32);
 
 			// Set the material based on the status.
 			const material = new THREE.MeshBasicMaterial({
